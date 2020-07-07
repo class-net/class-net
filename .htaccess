@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^www\.classnet\.in$
+RewriteRule ^/?$ "http\:\/\/classnet\.in\/" [R=301,L]
