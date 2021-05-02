@@ -7,7 +7,7 @@ hr {
 /* Contact us button */
 .contact-btn {
   background-color: #008080;
-  color:white;
+  color: white;
   border: 2px solid white; /* Green */
   border-radius: 30px;
   padding-top: 10px;
@@ -49,7 +49,7 @@ hr {
 }
 
 /* Features */
-.sec-features .row:nth-of-type(n+2) {
+.sec-features .row:nth-of-type(n + 2) {
   margin-top: 160px;
 }
 .sec-features .row:last-of-type {
@@ -72,7 +72,8 @@ hr {
 .carousel-indicators li {
   background: rgba(33, 33, 33, 0.1);
 }
-.carousel-indicators li:focus, .carousel-indicators li:hover {
+.carousel-indicators li:focus,
+.carousel-indicators li:hover {
   background: rgba(33, 33, 33, 0.5);
 }
 .carousel-indicators .active {
@@ -83,7 +84,8 @@ hr {
 .carousel-control-prev {
   color: #212121;
 }
-.carousel-control-next:focus, .carousel-control-next:hover,
+.carousel-control-next:focus,
+.carousel-control-next:hover,
 .carousel-control-prev:focus,
 .carousel-control-prev:hover {
   color: #111;
@@ -95,15 +97,16 @@ hr {
   padding-bottom: 24px;
   background: #212121;
 }
-.footer li:nth-of-type(n+2) {
+.footer li:nth-of-type(n + 2) {
   margin-left: 8px;
 }
 .footer a {
   font-size: 18px;
   color: rgba(255, 255, 255, 0.5);
-  -webkit-transition: color .235s ease-in-out;
-  transition: color .235s ease-in-out;
+  -webkit-transition: color 0.235s ease-in-out;
+  transition: color 0.235s ease-in-out;
 }
-.footer a:focus, .footer a:hover {
+.footer a:focus,
+.footer a:hover {
   color: rgba(255, 255, 255, 0.25);
 }
